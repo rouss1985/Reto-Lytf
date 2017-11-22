@@ -1,0 +1,228 @@
+/*En este apartado se le esta dando estilo a todo el body*/
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*Aquí se le esta dando estilo a la parte del header*/
+.head{
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(#76278F, #2B1E66);
+  position: fixed;
+  Z-INDEX: 1000;
+}
+/*En esta sección se le esta dando estilo a los elementos que contiene el menu del header*/
+.loguito{
+  width: 127px;
+  height: 51px;
+  padding-bottom: 6px;
+}
+.apartado{
+  color: #fff;
+}
+.menu{
+  float: right;
+  width: 30%;
+  margin-top: 44px;
+  margin-right: 117px;
+}
+.logoPage{
+  float: left;
+  margin-left: 94px;
+  margin-top: 34px;
+}
+.apartado{
+display: inline;
+padding: 10px;
+}
+.imagenLift{
+  float: left;
+}
+/*Aquí se le esta dando estilos a la primera sección del sitio */
+header#first-section {
+  height: 1174px;
+  background: linear-gradient(#691B84, #681C82, #691B84, #2B1E66);
+}
+#first-section img.gif {
+  width: 1350px;
+  height: 740px;
+  background-image: linear-gradient(to left rgb(110,38,139), rgba(110,38,139,.5));
+  position: relative;
+  bottom: 110px;
+}
+#first-section2 {
+  color: #fff;
+  line-height: 1.4;
+  width: 35%;
+  height: 35%;
+  position: relative;
+  left: 130px;
+  bottom: 100px;
+  display: inline-block;
+}
+#first-section2 p {
+  font-size: 18px;
+}
+h1{
+  font-size: 40px;
+  color: #352384;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+h5 {
+  font-weight: 500;
+}
+.phone {
+  display: inline-block;
+  width: 43%;
+  height: 63%;
+  position: relative;
+  left: 589px;
+  bottom: 628px;
+}
+aside#sign-up {
+  width: 561px;
+  height: 421px;
+  background-color: #FFF;
+  z-index: 900;
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+div.su-container {
+  padding: 65px;
+}
+.ph-number {
+  border: none;
+  border-bottom: .3px solid #000;
+  width: 450px;
+  padding: 10px 0 10px 0;
+}
+input.message {
+  padding-bottom: 215px;
+}
+div.links-top {
+  margin: 30px 0 30px 0;
+}
+/*Aquí se le esta dando estilo al botones del formulario*/
+.pink-button {
+  background: #FF00BF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 15px;
+}
+span {
+  color: #FF00BF;
+}
+p.little {
+  font-size: 9px;
+  font-weight: 500;
+}
+#first-video{
+    height: 800px;
+    background: #fff;
+}
+.amplify-your-ride{
+  float: right;
+}
+.paragraph-1{
+  position: relative;
+  top: 30px;
+  width: 30%;
+  left: 50px;
+  line-height: 20pt;
+}
+.paragraph-1 > h3{
+  font-size: 18pt;
+}
+/*Aquí se le esta dando estilos a las secciones del sitio donde contiene parrafos y videos */
+.watch {
+  float: left;
+  margin-left: 106px;
+  margin-top: 40px;
+}
+.video1{
+  float: right;
+  width: 874px;
+}
+.video2{
+  float: left;
+  margin-left: 0px;
+  width: 809px;
+  height: 366px;
+}
+.watch2{
+  float: right;
+  margin-right: 142px;
+  margin-top: 31px;
+}
+.text-video3{
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+.watch3{
+display: inline-block;
+}
+.watch3{
+  display: inline-block;
+  margin-left: 106px;
+  margin-top: 40px;
+}
+.video3{
+  float: right;
+  width: 874px;
+}
+/*Aquí se le esta dando estilos a la sección del footer del sitio*/
+.footer{
+  background: #24292e;
+  width: 100%;
+  height: 400px;
+  display: inline-block;
+  margin-top: 0px;
+}
+.containerFooter{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.clear{
+  width: 100%;
+  clear: both;
+}
+.footer1{
+  width: 25%;
+  height: 40px;
+  float: left;
+  margin-top: 76px;
+  color: #fff;
+}
+.titleFooter{
+  margin-bottom: 35px;
+}
+.redes{
+  text-align: center;
+  margin-top: 45px;
+  margin-left: -735px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    width: 42px;
+    margin: 31px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.finalFooter{
+  position: relative;
+  margin-left: -341px;
+  margin-top: -1px;
+}
